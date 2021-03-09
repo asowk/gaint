@@ -1,0 +1,66 @@
+.tivasta-wp-container,.header_v1,.header
+{
+    margin-bottom: 20px
+}
+
+.tivasta-hover-edit-delete {
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    transition: 0.2s linear;
+    z-index: 9999;
+    display: none;
+    background: #333399;
+}
+.tivasta-wp-container:hover .tivasta-hover-edit-delete {
+     display: block;
+}
+
+.tivasta-webpart-overlay
+{
+	
+    background: #000;
+    float: left;
+    position: fixed;
+    height: 100%;
+    opacity: 0.5;
+    width: 100%;
+    display: none;
+    z-index: 2;
+	top:0;
+
+}
+
+.tivasta-webpart-item {
+    float: left;
+    width: 23%;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    background: #e9e9e9;
+    margin: 0 1% 15px 1%;
+}
+.webpart-icon
+{
+	margin:5px 0px;
+	width: 40px;
+    height: 40px;
+}
+
+.webpart-name
+{
+	font-size:14px;
+	display:block;
+	margin:4px 0px
+	
+}
+.webpart-link
+{
+	display:block
+}
+@media only screen and (min-width: 768px){
+.tivasta-centerlayout-padding
+{
+    padding: 0
+}
+}
